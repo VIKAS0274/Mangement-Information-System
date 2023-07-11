@@ -1,0 +1,15 @@
+D:\vb\login\login\bin\Debug\logindata.mdf
+D:\vb\login\login\bin\Debug\logindata_log.ldf
+D:\vb\login\login\bin\Debug\login.exe.config
+D:\vb\login\login\bin\Debug\login.exe
+D:\vb\login\login\bin\Debug\login.pdb
+D:\vb\login\login\bin\Debug\login.xml
+D:\vb\login\login\obj\Debug\login.vbproj.AssemblyReference.cache
+D:\vb\login\login\obj\Debug\login.vbproj.SuggestedBindingRedirects.cache
+D:\vb\login\login\obj\Debug\login.Form1.resources
+D:\vb\login\login\obj\Debug\login.Resources.resources
+D:\vb\login\login\obj\Debug\login.vbproj.GenerateResource.cache
+D:\vb\login\login\obj\Debug\login.vbproj.CoreCompileInputs.cache
+D:\vb\login\login\obj\Debug\login.exe
+D:\vb\login\login\obj\Debug\login.xml
+D:\vb\login\login\obj\Debug\login.pdb
