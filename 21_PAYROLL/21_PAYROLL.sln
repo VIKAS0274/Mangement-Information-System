@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "21_PAYROLL", "21_PAYROLL.vbproj", "{D2BF08BD-DB4B-4EDC-A797-CE7A5F90ABEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2BF08BD-DB4B-4EDC-A797-CE7A5F90ABEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BF08BD-DB4B-4EDC-A797-CE7A5F90ABEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BF08BD-DB4B-4EDC-A797-CE7A5F90ABEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BF08BD-DB4B-4EDC-A797-CE7A5F90ABEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47C27DDA-1992-45F3-A49B-67A132CF5F0F}
+	EndGlobalSection
+EndGlobal
