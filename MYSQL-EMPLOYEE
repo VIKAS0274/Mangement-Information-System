@@ -83,3 +83,62 @@ mysql> drop table emp;
 Query OK, 0 rows affected (0.01 sec)
 
 mysql>
+
+
+create database student;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use student;
+Database changed
+mysql> create table student(s_no int(10),name varchar(100),subject varchar(100),mark int(10));
+Query OK, 0 rows affected, 2 warnings (0.03 sec)
+
+mysql> insert into student values(1,"somu","os",75);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into student values(2,"sankar","dbms","66");
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into student values(3,"mahesh","cloud",92);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> alter table student
+    -> add column grade varchar(100);
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table student
+    -> modify column name int(10);
+ERROR 1366 (HY000): Incorrect integer value: 'somu' for column 'name' at row 1
+mysql> alter table student
+    -> modify column s_no varchar(100);
+Query OK, 3 rows affected (0.05 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> select*from student;
++------+--------+---------+------+-------+
+| s_no | name   | subject | mark | grade |
++------+--------+---------+------+-------+
+| 1    | somu   | os      |   75 | NULL  |
+| 2    | sankar | dbms    |   66 | NULL  |
+| 3    | mahesh | cloud   |   92 | NULL  |
++------+--------+---------+------+-------+
+3 rows in set (0.00 sec)
+
+mysql> delete from student
+    -> where s_no=2;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select*from student;
++------+--------+---------+------+-------+
+| s_no | name   | subject | mark | grade |
++------+--------+---------+------+-------+
+| 1    | somu   | os      |   75 | NULL  |
+| 3    | mahesh | cloud   |   92 | NULL  |
++------+--------+---------+------+-------+
+2 rows in set (0.00 sec)
+
+mysql> drop table student;
+Query OK, 0 rows affected (0.02 sec)
+
+mysql>
